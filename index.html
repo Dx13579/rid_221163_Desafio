@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Tarefas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciador de Tarefas</h1>
+        
+        <div class="form-container">
+            <form id="task-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="task-name" placeholder="Nome da tarefa" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="task-tag" placeholder="Etiqueta">
+                    </div>
+                    <button type="submit" class="add-btn">+</button>
+                </div>
+            </form>
+        </div>
+        
+        <div class="task-list" id="task-list">
+            <!-- As tarefas serão carregadas aqui -->
+        </div>
+        
+        <div class="stats" id="task-stats">
+            <!-- As estatísticas serão atualizadas aqui -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
