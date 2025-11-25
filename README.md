@@ -1,2 +1,2 @@
-Gerenciador e Tarefas crido pala demonstrar minhas habilidades como programadoe front-end e meu dominio de HTML, CSS e Javascript.
+Gerenciador de Tarefas criado para demonstrar minhas habilidades como programador front-end e meu domínio de HTML, CSS e JavaScript.
 
